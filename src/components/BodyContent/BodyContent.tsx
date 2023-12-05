@@ -17,11 +17,11 @@ const BodyContent: React.FC = () => {
     };
 
     fetchData();
-  }, []); // Executa apenas na montagem do componente
+  }, []); 
 
   return (
-    <Flex direction="column" align="flex-end" justify="flex-end" p="4" h="100vh">
-      <Flex gap={4} justify="flex-end">
+    <Flex direction="column" align="center"  p="4" h="100vh">
+      <Flex gap={4} >
         <img src="/src/assets/2021.jpg" alt="Satélite 1" style={{ width: '35%' }} />
         <img src="/src/assets/2022.jpg" alt="Satélite 2" style={{ width: '35%' }} />
       </Flex>

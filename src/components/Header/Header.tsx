@@ -1,11 +1,10 @@
-import { Flex, Heading, Image} from "@chakra-ui/react";
+import { Flex, Heading} from "@chakra-ui/react";
 
 export function Header(){
 
   return (
       <Flex align="center">
-        <Image src="icon.svg"/>
-        <Flex direction="column" justify="center">
+        <Flex direction="column" justify="center" p="5">
           <Heading size="md">Mapper Desmatamento</Heading>
         </Flex>
       </Flex>
